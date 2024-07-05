@@ -1,0 +1,765 @@
+body{
+    background-color: #F0F2F5;
+    height: 100%;
+    width: 100%;   
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  color: rgb(45, 127, 241);
+  font-size: 30px;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center; 
+}
+
+.fa-solid.fa-house {
+  color: cornflowerblue;
+}
+
+.fa-brands.fa-facebook {
+  color: blue;
+}
+
+.fa-brands.fa-instagram {
+  color: rgb(226, 22, 213);
+}
+
+.fa-brands.fa-pinterest {
+  color: rgb(178, 17, 17);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons a {
+  margin-left: 80px;
+}
+
+.icons i {
+  font-size: 55px;
+  transition: color 0.3s;
+}
+
+.icons i:hover {
+  color: black;
+}
+
+.icons i:active {
+  color: rgb(122, 118, 118);
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .icons i {
+      font-size: 25px;
+      margin-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+  }
+
+  .logo {
+      margin-bottom: 20px;
+  }
+
+  .icons {
+      justify-content: center;
+  }
+
+  .icons i {
+      font-size: 50px;
+      margin-left: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .icons{
+    margin-right: 40px;
+  }
+  .icons i {
+      font-size: 30px;
+  }
+}
+
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+  .tutorialcards{
+    margin-top: 50px;
+  }
+
+  .htmlcard{
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(171, 175, 228);
+    position: relative;
+    left: 200px;
+    padding-bottom: 40px;
+  }
+
+  .htmlcard i{
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+    right: 170px;
+    color: rgb(77, 76, 76);
+  }
+
+  .tandchtml{
+    display: flex;
+    background-color: rgb(171, 175, 228);
+    height: 1000px;
+  }
+
+  .htmlcompiler iframe{
+    width: 1000px;
+    height: 800px;
+    border-radius: 30px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .compilerbutton{
+    width: 500px;
+    height: 75px;
+   position: relative;
+   top: 870px;
+   right: 460px;
+   font-size: 40px;
+    background-color: rgb(48, 231, 48);
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .compilerbutton a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34, 34, 34);
+    position: relative;
+    left: 50px;
+    top: 10px;
+  }
+
+  .compilerbutton:hover{
+    background-color: rgb(53, 176, 53);
+  }
+
+  .tutorialcards h6{
+    font-size: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 40px;
+  }
+
+  .tutorialcards button{
+    font-size: 40px;
+    height: 90px;
+    width: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 210px;
+    position: relative;
+    bottom: 40px;
+    border-radius: 60px;
+    background-color: rgb(214, 151, 41);
+    color: white;
+    border: none;
+  }
+  .tutorialcards button:hover{
+    background-color: rgb(107, 72, 10);
+  }
+
+  .tutorialcards button:active{
+    background-color: rgb(214, 151, 41);
+  }
+
+  .tutorialcards .button2{
+    margin-top: 25px;
+    background-color: rgb(79, 61, 151);
+  }
+
+  .tutorialcards .button2:hover{
+    background-color: rgb(6, 27, 70);
+  }
+
+  .tutorialcards .button2:active{
+    background-color: rgb(79, 61, 151);;
+  }
+
+  .tutorialcards .button3{
+    margin-top: 25px;
+    background-color: rgb(198, 88, 178);
+  }
+
+
+  .tutorialcards .button3:hover{
+    background-color: rgb(87, 9, 101);
+  }
+
+  .tutorialcards .button3:active{
+    background-color: rgb(198, 88, 178);
+  }
+
+  .incompletetutorial{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 120px;
+    margin-left: 40px;
+    font-size: 30px;
+  }
+
+
+   .csscard{
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(123, 104, 209);
+    position: relative;
+    left: 200px;
+  }
+
+  .csscard i{
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+    right: 170px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .tandccss{
+    display: flex;
+    background-color: rgb(123, 104, 209);
+    height: 1000px;
+  }
+
+  .csscompiler iframe{
+    width: 1000px;
+    height: 800px;
+    border-radius: 30px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  .javascriptcard{
+    height: 800px;
+    width: 1000px;
+    border-radius: 30px;
+    background-color: rgb(84, 177, 187);
+    position: relative;
+    left: 200px;
+  }
+
+  .javascriptcard i{
+    position: relative;
+    top: 30px;
+    right: 170px;
+    font-size: 60px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .tandcjavascript{
+    display: flex;
+    background-color: rgb(84, 177, 187);
+    height: 1000px;
+  }
+
+  .javascriptcompiler iframe{
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+  .pythoncard{
+    height: 800px;
+    width: 1000px;
+    background-color: rgb(207, 123, 151);
+    position: relative;
+    left: 200px;
+  }
+
+  .pythoncard i{
+    font-size: 60px;
+    position: relative;
+    top: 20px;
+    right: 170px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .tandcpython{
+    display: flex;
+    background-color: rgb(207, 123, 151);
+    height: 1000px;
+  }
+
+  .pythoncompiler iframe{
+    width: 1000px;
+    height: 800px;
+    font-Size:20px;
+    border-radius: 30px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .tutorialcards p{
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bolder;
+  }
+
+  .introhome{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(30, 27, 27);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+
+  .textarea input{
+    height: 83px;
+    width: 700px;
+    font-size: 40px;
+    color: black;
+    border: none;
+    margin-left: 700px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+  }
+
+  .introhome a{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 1100px;
+    position: relative;
+    top: 30px;
+  }
+
+  .introhome a:hover{
+    color: cornflowerblue;
+  }
+
+  .textarea{
+    display: flex;
+    position: relative;
+    left: 100px;
+  }
+
+  .searchicon{
+    font-size: 40px;
+    color: rgb(4, 30, 4);
+    height: 85px;
+    width: 200px;
+    background-color: greenyellow;
+    text-align: center;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    position: relative;
+    border: none;
+  }
+
+  .searchicon:hover{
+    background-color: cornflowerblue;
+  }
+
+  .searchicon:active{
+    background-color: greenyellow;
+  }
+
+  .searchicon i{
+    margin-top: 15px;
+  }
+
+  .introhome h1{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+  }
+
+  .introhome h6{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(247, 231, 84);
+    position: relative;
+    bottom: 15px;
+  }
+
+  .jpscc{
+    height: 550px;
+    position: relative;
+    top: 100px;
+  }
+
+  .jpscc div{
+    height: 400px;
+    width: 400px;
+    display:inline-block;
+    margin-left: 70px;
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .jpscc  p{
+    position: relative;
+    top: 40px;
+  }  
+
+  .jpscc  button{
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+    border-radius: 60px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+  }
+
+  .jpscc  button:hover{
+    background-color: rgb(45, 45, 45);
+  }
+
+  .jpscc  button:active{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .brmxm{
+    height: 550px;
+  }
+
+
+  .brmxm div{
+    height: 400px;
+    width: 400px;
+    display:inline-block;
+    margin-left: 70px;
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 45px;
+  }
+
+  .brmxm  p{
+    position: relative;
+    top: 40px;
+  } 
+
+  .brmxm  button{
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    position: relative;
+    top: 70px;
+    border-radius: 60px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+  }
+
+  .brmxm  button:hover{
+    background-color: rgb(45, 45, 45);
+  }
+
+  .brmxm  button:active{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .nakdd{
+    height: 550px;
+  }
+
+  .nakdd div{
+    height: 400px;
+    width: 400px;
+    display:inline-block;
+    margin-left: 70px;
+    border-radius: 30px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .nakdd  p{
+    position: relative;
+    top: 60px;
+  } 
+
+  .nakdd  button{
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    position: relative;
+    top: 70px;
+    border-radius: 60px;
+    background-color: rgb(14, 13, 13);
+    color: white;
+  }
+
+  .nakdd  button:hover{
+    background-color: rgb(45, 45, 45);
+  }
+
+  .nakdd  button:active{
+    background-color: rgb(0, 0, 0);
+  }
+
+  .datascience button{
+    width: 250px;
+  }
+
+  .java {
+    background-color: rgb(116, 116, 238);
+  }
+  .java i{
+    position: relative;
+    top: 20px;font-size: 40px;
+
+
+  }
+  .react {
+    background-color: rgb(116, 116, 238);
+  }
+  .react i{
+    position: relative;
+    top: 20px;font-size: 40px;
+  }
+
+  .kotlin {
+    background-color: rgb(116, 116, 238);
+  }
+ .kotlin i{
+    position: relative;
+    top: 20px;font-size: 40px;
+ }
+
+  .bootstrap{
+    background-color: cadetblue;
+  }
+  .bootstrap i{
+    position: relative;
+    top: 20px;font-size: 40px;
+ }
+
+  .ai{
+    background-color: cadetblue;
+  }
+  .ai i{
+    position: relative;
+    top: 20px;font-size: 40px;
+ }
+
+  .nodejs{
+    background-color: rgb(83, 186, 98);
+  }
+  .nodejs i{
+    position: relative;
+    top: 20px;font-size: 40px;
+ }
+
+ .php{
+  background-color: rgb(139, 89, 224);
+}
+.php i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.mysql{
+  background-color: rgb(139, 89, 224);
+}
+.mysql i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.dsa{
+  background-color: rgb(139, 89, 224);
+}
+.dsa i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.sql{
+  background-color: rgb(208, 87, 217);
+}
+.sql i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.xml{
+  background-color: rgb(208, 87, 217);
+}
+.xml i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.datascience{
+  background-color: rgb(208, 87, 217);
+}
+.datascience i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.c{
+  background-color: rgb(81, 210, 169);
+}
+.c i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.mongodb{
+  background-color: rgb(81, 210, 169);
+}
+.mongodb i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+.cpp{
+  background-color: rgb(83, 186, 98);
+}
+.cpp i{
+  position: relative;
+  top: 20px;font-size: 40px;
+}
+
+footer{
+  height: 1100px;
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(0, 0, 0);
+  display:flex ;
+}
+
+.pages{
+  color: white;
+  position: relative;
+  left: 200px;
+  top: 90px;
+}
+
+.pages h1{
+  font-size: 50px;
+}
+
+.pages a{
+  text-decoration: none;
+  color: rgb(191, 191, 191);
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.pages h4{
+  padding-top: 30px;
+}
+
+.footertutorialslinks{
+  color: white;
+}
+
+.footertutorialslinks h1{
+  position: relative;
+  left: 600px;
+  top: 95px;
+  font-size: 40px;
+}
+
+.footertutorialslinks h4{
+  position: relative;
+  top: 190px;
+  left: 650px;
+  padding-top: 20px;
+}
+
+.footertutorialslinks a{
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(191, 191, 191);
+}
+
+.footertutorialslinksrowchange{
+  position: relative;
+  left: 400px;
+  bottom: 660px;
+}
+
+.socialmediahandles {
+  position: relative;
+  left: 1100px;
+  top: 95px;
+}
+
+
+.socialmediahandles h1{
+  color: white;
+  font-size: 40px;
+}
+
+.socialmediahandles div{
+  font-size: 60px;
+  padding-top: 60px;
+  position: relative;
+  left: 240px;
+}
+
+
+

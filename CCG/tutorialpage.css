@@ -1,0 +1,148 @@
+body{
+    background-color: #F0F2F5;
+    
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.logo{
+    color: rgb(45, 127, 241);
+    font-size: xx-large;
+    font-family: sans-serif;
+    width: fit-content;
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.fa-solid.fa-house{
+  color: cornflowerblue;
+}
+
+.fa-brands.fa-facebook{
+  color: blue;
+}
+
+.fa-brands.fa-instagram{
+  color: rgb(226, 22, 213);
+}
+
+.fa-brands.fa-pinterest{
+  color: rgb(178, 17, 17);
+}
+
+.icons{
+    margin-left: 1520px;
+}
+
+.icons i{
+    width: auto;
+    height: auto;
+    font-size: 50px;
+    color: rgb(122, 118, 118); 
+    margin-left: 140px;
+}
+
+.icons i:hover{
+    color: black;
+}
+
+.icons i:active{
+    color: rgb(122, 118, 118);
+}
+
+main{
+    height: 100%;
+    width: 100%;
+}
+
+
+div.contentlist {
+    background-color:rgb(255, 255, 255);
+    white-space: nowrap;
+    overflow: auto;
+    position: relative;
+    top: 20px;
+  }
+  
+  div.contentlist a {
+    display: inline-block;
+    color: rgb(96, 95, 95);
+    text-align: center;
+    padding: 14px;
+    margin-left: 45px;
+    text-decoration: none;
+    font-size: 35px;
+    font-family: sans-serif;
+  }
+
+  
+  div.contentlist a:hover {
+    background-color:rgb(9, 9, 9);
+    border-radius: 30px;
+    color: rgb(250, 245, 245);
+  }
+
+  div.contentlist a:active{
+    background-color: rgb(68, 66, 66);
+  }
+
+.tutorialmenus{
+    height: 2860px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    display: block;
+    position: relative;
+    top: 20px;
+  }
+  
+  .tutorialmenus::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+  }
+  
+  .tutorialmenus .htmlmenu1{
+    height: 55px;
+    font-size: x-large;
+    text-align: center;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+  }
+  
+  .tutorialmenus .htmlmenu1:hover{
+    background-color: rgb(196, 234, 162);
+  }
+
+  .tutorialmenus .htmlmenu1:active{
+    background-color: white;
+  }
+  
+  .tutorialmenus a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  
+  .tutorialheading1 h3{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(72, 71, 71);
+    font-weight: 100;
+    position: relative;
+    top: 15px;
+  }
+
+  #htmlhome{
+    background-color: rgb(107, 186, 33);
+  }
